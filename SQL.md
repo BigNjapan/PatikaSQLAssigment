@@ -8,7 +8,13 @@ SELECT title, description FROM film;
 
 ```SQL
 
-SELECT * FROM film WHERE film_length > 60 AND film_length < 75
+SELECT * FROM film WHERE length > 60 AND length < 75
+
+```
+
+```SQL
+
+SELECT * FROM film WHERE rental_rate = "0.99" AND replacement_cost = "12.99" OR "28.99"
 
 ```
 
