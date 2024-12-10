@@ -8,7 +8,7 @@ SELECT title, description FROM film;
 
 ```SQL
 
-SELECT * FROM film WHERE film_length > 60 && film_length < 75
+SELECT * FROM film WHERE film_length > 60 AND film_length < 75
 
 ```
 
