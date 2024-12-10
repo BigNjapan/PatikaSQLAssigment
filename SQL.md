@@ -2,7 +2,7 @@
 
 ```SQL
 
-SELECT * FROM Table1
+SELECT title, description FROM film;
 
 ```
 
